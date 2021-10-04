@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+.article-section {
+    margin-bottom: 58px;
+}
+
+.article-block h2 {
+    font-size: 24px;
+    line-height: 38.4px;
+    margin-bottom: 10px;
+}
+
+.article-block h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    padding-bottom: 24px;
+}
+
+.article-block p {
+    margin-bottom: 30px;
+}
+
+.article-block ul {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    list-style-type: disc;
+    line-height: 25.5px;
+}
+
+.article-block ul li {
+    margin-bottom: 10px;
+}
+
+.article-block ul > li::marker {
+    color: #c83947;
+}
+
+.article {
+    display: flex;
+}
+
+.article-block main {
+    width: 650px;
+    margin-left: 84px;
+}
+
+/* Article header */
+.header-article {
+    width: 255px;
+}
+
+.nav-article-header {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    padding-bottom: 17px;
+}
+
+.article-block ol {
+    padding-left: 17px;
+    line-height: 25.6px;
+}
+
+ol > li {
+    padding-bottom: 10px;
+}
+
+.article-block ol > li > a {
+    color: #282828;
+}
+/* =========================== */
+
+.facts-block {
+    background-color: #f1f1f1;
+    padding: 32px 27px 31px 48px;
+    margin-bottom: 30px;
+}
+
+.facts-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    margin-bottom: 13px;
+    color: #c83947;
+}
+
+.facts-text {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.important {
+    position: relative;
+    margin-top: 50px;
+}
+
+.important::before {
+    position: absolute;
+    display: inline-block;
+    content: "Важно!";
+    font-size: 12px;
+    line-height: 66px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 66px;
+    height: 66px;
+    top: -33px;
+    left: -33px;
+    background-color: #c83947;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ============================= */
+
+.image-block {
+    font-size: 14px;
+    margin-bottom: 34px;
+    color: #909090;
+}
+
+.ul-caption {
+    margin-bottom: 13px;
+}
+
+.ul-1 {
+    margin-bottom: 57px;
+}
+
+.ul-2 {
+    margin-bottom: 33px;
+}
+
+.pb-56 {
+    margin-bottom: 56px;
+}
+
+/* Tips section */
+
+.tips-block {
+    padding: 40px 27px 0px 49px;
+}
+
+.tips-logo {
+    display: block;
+    margin-right: 10px;
+    background-color: #282828;
+}
+
+.tips-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tips-text {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* ============================ */
+
+/* Design Project Block */
+
+.design-project-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 20px;
+    margin-bottom: 29px;
+    font-size: 14px;
+    border: 1px solid #c4c4c4;
+}
+
+.design-project-block p {
+    margin: 0;
+}
+
+.design-project-block img {
+    width: 40.11px;
+    height: 45.43px;
+}
+
+.design-project-block-header {
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.design-project-block-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74px;
+    height: 74px;
+
+    background-color: #282828;
+}
+
+.design-project-block-text {
+    width: 470px;
+}
+
+.link {
+    margin-left: 1em;
+    position: relative;
+    color: #909090;
+}
+
+.link::before {
+    content: "";
+    display: block;
+    width: 1.4em;
+    height: 1.4em;
+    background: url("/img/ei_external-link.png") center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 1px;
+    left: -18px;
+}
+
+/* ==================================== */
+
+.author-block {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.author-block p {
+    margin: 0;
+}
+
+.author-image {
+    border-radius: 50%;
+}
+
+.author-description {
+    margin-left: 14px;
+}
+
+.author-article {
+    font-size: 12px;
+    line-height: 19.2px;
+    color: #909090;
+}
+
+.author-name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #282828;
+}
+
+.author-position {
+    width: 190px;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #282828;
+}
