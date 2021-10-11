@@ -392,3 +392,12 @@ ol > li {
         display: none;
     }
 }
+
+.fon-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #b6b5b5;
+    opacity: 0.5;
+    z-index: 50;
+}

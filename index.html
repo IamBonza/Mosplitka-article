@@ -16,6 +16,7 @@
 <body>
 
     <div class="container article-block">
+        <div class="fon"></div>
         <article class="article">
             <header class="header-article">
                 <h1 style="display: none">Статья</h1>
@@ -231,9 +232,11 @@
         $(function () {
             $('.article-btn').click(function () {
                 $('.header-article-small').show();
+                $('.fon').toggleClass('fon-bg');
             });
             $('.close-btn').click(function () {
                 $('.header-article-small').hide();
+                $('div.fon').toggleClass('fon-bg');
             });
         });
     </script>
